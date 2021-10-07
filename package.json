@@ -1,0 +1,30 @@
+{
+  "name": "nightwatch-selenium-e2e",
+  "version": "1.0.0",
+  "description": "UI tests for web applications using the Nightwatch.js framework",
+  "author": "mmncit",
+  "license": "MIT",
+  "scripts": {
+    "nightwatch": "./node_modules/.bin/nightwatch",
+    "test:edge": "npm run nightwatch -- -e edge ",
+    "test:chrome": "npm run nightwatch -- -e chrome",
+    "test:firefox": "npm run nightwatch -- -e firefox",
+    "test:safari": "npm run nightwatch -- -e safari"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmncit/nightwatch-selenium-e2e.git"
+  },
+  "devDependencies": {
+    "edgedriver": "^4.17134.1",
+    "eslint": "^7.29.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "geckodriver": "^1.22.3",
+    "nightwatch": "^1.7.6",
+    "protractor-browserstack-reporter": "~0.2.2"
+  },
+  "dependencies": {
+    "chromedriver": "^94.0.0"
+  }
+}

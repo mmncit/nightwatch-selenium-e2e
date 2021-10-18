@@ -49,6 +49,7 @@ module.exports = {
   custom_commands_path: "",
   custom_assertions_path: "",
   globals_path: "global.js",
+  page_objects_path: "pages",
 
   // Needed for safari.
   webdriver: {
